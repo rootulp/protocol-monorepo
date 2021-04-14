@@ -16,13 +16,13 @@ import { ISuperfluidToken, SuperfluidToken } from "./SuperfluidToken.sol";
 
 import { ERC777Helper } from "../utils/ERC777Helper.sol";
 
-import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
-import { SafeCast } from "@openzeppelin/contracts/utils/SafeCast.sol";
-import { SignedSafeMath } from "@openzeppelin/contracts/math/SignedSafeMath.sol";
-import { IERC777Recipient } from "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol";
-import { IERC777Sender } from "@openzeppelin/contracts/token/ERC777/IERC777Sender.sol";
-import { Address } from "@openzeppelin/contracts/utils/Address.sol";
+import { SafeERC20 } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/token/ERC20/SafeERC20.sol";
+import { SafeMath } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/math/SafeMath.sol";
+import { SafeCast } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/utils/SafeCast.sol";
+import { SignedSafeMath } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/math/SignedSafeMath.sol";
+import { IERC777Recipient } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/token/ERC777/IERC777Recipient.sol";
+import { IERC777Sender } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/token/ERC777/IERC777Sender.sol";
+import { Address } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/utils/Address.sol";
 
 
 /**
