@@ -6,7 +6,7 @@ import {
     CustomSuperTokenProxyBase
 }
 from "../interfaces/superfluid/CustomSuperTokenProxyBase.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20 } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/token/ERC20/IERC20.sol";
 import { UUPSProxy } from "../upgradability/UUPSProxy.sol";
 
 /**

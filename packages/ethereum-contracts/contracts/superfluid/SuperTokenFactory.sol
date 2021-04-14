@@ -16,8 +16,8 @@ import { UUPSProxiable } from "../upgradability/UUPSProxiable.sol";
 import { SuperToken } from "../superfluid/SuperToken.sol";
 import { FullUpgradableSuperTokenProxy } from "../tokens/FullUpgradableSuperTokenProxy.sol";
 
-import { Address } from "@openzeppelin/contracts/utils/Address.sol";
-import { Create2 } from "@openzeppelin/contracts/utils/Create2.sol";
+import { Address } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/utils/Address.sol";
+import { Create2 } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/utils/Create2.sol";
 
 
 abstract contract SuperTokenFactoryBase is

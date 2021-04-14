@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: AGPLv3
 pragma solidity 0.7.6;
 
-import "@openzeppelin/contracts/access/AccessControl.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/access/AccessControl.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/token/ERC20/SafeERC20.sol";
 import {
     ISuperToken,
     IERC20
 } from "../interfaces/superfluid/ISuperfluid.sol";
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/math/SafeMath.sol";
 
 /**
  * @dev Upgrader contract for super tokens.
