@@ -7,10 +7,10 @@ import { ISuperAgreement } from "../interfaces/superfluid/ISuperAgreement.sol";
 import { ISuperfluidGovernance } from "../interfaces/superfluid/ISuperfluidGovernance.sol";
 import { ISuperfluidToken } from "../interfaces/superfluid/ISuperfluidToken.sol";
 
-import { Math } from "@openzeppelin/contracts/math/Math.sol";
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
-import { SafeCast } from "@openzeppelin/contracts/utils/SafeCast.sol";
-import { SignedSafeMath } from "@openzeppelin/contracts/math/SignedSafeMath.sol";
+import { Math } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/math/Math.sol";
+import { SafeMath } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/math/SafeMath.sol";
+import { SafeCast } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/utils/SafeCast.sol";
+import { SignedSafeMath } from "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0-solc-0.7/contracts/math/SignedSafeMath.sol";
 import { FixedSizeData } from "../utils/FixedSizeData.sol";
 
 
